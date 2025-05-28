@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Ingrid</title>
+  <style>
+    :root {
+      --roxo: #6a1b9a;
+      --verde: #2e7d32;
+      --fundo: #f3f3f3;
+      --texto: #333;
+      --branco: #fff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--fundo);
+      color: var(--texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--roxo), var(--verde));
+      color: var(--branco);
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      background: var(--branco);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+
+    h2 {
+      color: var(--roxo);
+      margin-bottom: 1rem;
+      border-left: 5px solid var(--verde);
+      padding-left: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.8rem;
+      padding-left: 1.5rem;
+      position: relative;
+      font-weight: 500;
+    }
+
+    li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: var(--verde);
+    }
+
+    footer {
+      text-align: center;
+      background-color: var(--roxo);
+      color: var(--branco);
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ingrid</h1>
+    <p>Portfólio Pessoal | Comunicativa & Criativa</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Olá! Sou Ingrid, tenho 17 anos e sou uma pessoa muito comunicativa e dedicada. Gosto de aprender, de me expressar e trabalhar em equipe. Estou sempre buscando evoluir e encarar novos desafios com entusiasmo.</p>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Boa comunicação</li>
+        <li>Proatividade</li>
+        <li>Organização</li>
+        <li>Facilidade para trabalhar em grupo</li>
+        <li>Aprendizado rápido</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Ingrid - Todos os direitos reservados
+  </footer>
+</body>
+</html>
+
